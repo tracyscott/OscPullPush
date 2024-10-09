@@ -11,7 +11,7 @@ address for OSC inputs for Open Stage Control.
 
 # Example
 ```
-java -jar OSCPullPush.0.1.1.jar oscaddresses.txt localhost 3737
+java -jar OSCPullPush-0.0.2.jar oscaddresses.txt localhost 3737
 ```
 
 
