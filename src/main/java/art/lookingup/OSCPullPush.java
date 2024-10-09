@@ -171,6 +171,8 @@ public class OSCPullPush {
                 // If it's not a valid number, return the original string
                 return value;
             }
+        } else if (value instanceof Boolean) {
+            return ((Boolean) value) ? 1.0f : 0.0f;
         }
         // For any other type, return the original value
         return value;
